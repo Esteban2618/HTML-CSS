@@ -1,0 +1,14 @@
+<h1>, <h2> ... hasta <h6>	// se usa para los titulos y subtitulos
+<a>			  	// Se usa para colocar links
+<p>				// se usa para escribir texto
+href = "xxx"			// se usa para referenciar un link
+target = "_balnk"		// se usa para redirigir un vinculo o link en una pestaña nueva
+rel = "noopener noreferrer"	// para protección de algo que no recuerdo
+<img>				// se usa para colocar imagenes
+alt = "xxx"			// se usa se usa cuando la imagen no carga quede como referencia en texto que es la imagen
+<ol>				// lista ordenada
+<il>				// lista no ordenada
+<s>				// tachar texto
+<em>				// letra cursiva
+<strong>			// letra en negrilla
+<hr>				// linea horizontal

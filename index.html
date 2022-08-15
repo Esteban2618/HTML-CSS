@@ -1,0 +1,75 @@
+<!DOCTYPE html> <!--especifica la versión de HTML-->
+<html lang="es"> 
+  <head>
+    <title>Ing. Esteban Cortes</title>
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1>Hola, Mundo</h1>
+    <main>  
+      <h2 id="titulo-cont-principal">Contenido principal</h2>
+      <a href="#parrafo-1">Parrafo 1</a>
+      <a href="#parrafo-2">Parrafo 2</a>
+      <a href="#parrafo-3">Parrafo 3</a>
+
+      <p>Haz clic aqui para ver <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">imagenes</a></p>
+
+      <a href="https://cdn.pixabay.com/photo/2015/02/09/20/03/koala-630117__340.jpg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.pixabay.com/photo/2015/02/09/20/03/koala-630117__340.jpg" alt="Imagen ksoala"></a>
+      <img src="Imagenes/pepsi.jpg" alt="Imagen pepsi_dados">
+
+      <h3 id="parrafo-1">Parrafo 1</h3>
+      <h3 id="parrafo-2">Parrafo 2</h3>
+      <h3 id="parrafo-3">Parrafo 3</h3>
+      <div class="contenedor_listas">
+        <hr>
+        <h3>Listas no ordenada para un menú</h3>
+        <p>las lista es la <strong>siguiente</strong>:</p>
+
+        <ul class="lista-de-materias">    <!--Lista no ordenada se usa ul-->
+          <li><em>matematicas</em></li>
+          <li><s>fisica</s></li>
+          <li>programacion</li>
+          <li>python</li>
+        </ul>
+        <img src="Imagenes/pepsi.jpg" alt="Imagen pepsi_dados">   <!--alt se usa cuando la imagen no carga quede como referencia en texto que es la imagen-->
+
+        <p>Lista ordenada</p>   <!--Lista ordenada se usa ol-->
+        <ol class="lista-de-materias">
+          <li>C++</li>
+          <li>c+</li>
+          <li>html y CSS</li>
+        </ol>
+        <form action="/enviar-respuesta">
+          <label for="Interior">
+            <input id="Interior" type="radio" value="Interior" name="interior-exterior" checked>Interior
+          </label>
+            <br>
+          <label for ="Exterior"><input id="Exterior" type="radio" value="Exterior" name="interior-exterior">Exterior</label>
+          <br>
+          <input type="radio">Interior
+          <br>
+          <label for="cuadrado">
+            <input id="cuadrado" type="checkbox" value="cuadrado" name="figura" checked>cuadrado
+          </label>
+          <label for="azul">
+            <input id="azul" type="checkbox" value="azul" name="figura">azul
+          </label>
+          <label for="redondo"><input id="redondo" type="checkbox" value="redondo" name="figura">redondo
+          </label>
+
+          <input type="text" placeholder="URL de la foto pepsi" required>
+          <button type="submit">Enviar</button>
+      </div>
+
+      </form>
+    </main>
+    <footer>
+      <p><small>Derechos de autor</p></small>
+    </footer>
+  </body>       
+</html>
