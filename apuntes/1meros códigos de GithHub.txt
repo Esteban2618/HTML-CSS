@@ -1,0 +1,21 @@
+git init								// Inicializar un proyecto nuevo Git
+git status								// 
+git add .								// Agregar todos los archivos
+git config --global user.name Esteban2618				// Se autentica
+git config --global user.email estebanc2618@gmail.com			// Registra el correo
+git commit -m "Agrego página HTML y CSS"				// Digita la modificación que realizo al programa
+git branch -M main							// Para cargar los archivos en el repocitorio
+git remote add origin https://github.com/Esteban2618/HTML-CSS.git	// Se copio de la página de GitHub
+git push -u origin main							// Sincronizar el PC con GitHub
+
+
+git status								// En que estado están los archivos 
+git commit								// Pasar lde área a área dev to main
+git push								// subirlo a un repositorio remoto
+git pull								// Traer los cambios de los otros developers
+git clone								// Hacer una copia
+git add NOMBREDELARCHIVO						// Agregar un archivo específico
+git rm .								// Eliminar archivos que acabamos de añadir
+git log									// Imprimir todos los commit realizados
+git reset --hard IDENTIFICADOR						// La cadena de números y letras que aparece al lado de la palabra “commit”, se usa para revertir cambios
+git diff								// cambios realizados desde el último commit
